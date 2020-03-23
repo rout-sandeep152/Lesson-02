@@ -337,3 +337,92 @@
   337  nodejs -v
   338  history
   339  history > hist
+  340  ls
+  341  vi hist 
+  342  git add hist
+  343  git add hist master 
+  344  cp hist Lesson-01
+  345  cd Lesson-01/
+  346  ll
+  347  git add hist master
+  348  git status
+  349  git add hist
+  350  git status
+  351  git commit -m "My Command History File" 
+  352  git status
+  353  git push -u origin master 
+  354  git status
+  355  ll
+  356  sudo wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
+  357  ll
+  358  cd test-angular/
+  359  ll
+  360  ng serve
+  361  ll
+  362  ng --version
+  363  ll
+  364  vi angular.json
+  365  cd src/
+  366  ll
+  367  vi index.html
+  368  cd ..
+  369  ng serve
+  370  ll
+  371  cd src/
+  372  ll
+  373  cd app/
+  374  ll
+  375  vi app.component.css
+  376  cd ..
+  377  ll
+  378  vi karma.conf.js
+  379  vi test.ts
+  380  vi index.html
+  381  cd ..
+  382  ng serve
+  383  cd app
+  384  ll
+  385  cd src
+  386  ll
+  387  cd  app
+  388  ll
+  389  cd ..
+  390  apt-get update && apt-get install -yq google-chrome-stable
+  391  sudo apt-get update && apt-get install -yq google-chrome-stable
+  392  cd /app
+  393  cd ..
+  394  ls
+  395  cd /
+  396  ls
+  397  find . -name .bin
+  398  find . -name .bin 2> /dev/null
+  399  cd ./home/sandeeproutmind/test-angular/node_modules
+  400  ll
+  401  pwd
+  402  docker image ls
+  403  docker container ls
+  404  cd /usr/src
+  405  ls
+  406  cd ..
+  407  cd
+  408  cd 
+  409  ls
+  410  cd DockerWithMySQL
+  411  ll
+  412  vi runclient
+  413  vi runserver_first
+  414  vi runserver_first.save
+  415  cd sql
+  416  ll
+  417  vi docker.sql 
+  418  cd 
+  419  find . -name Docker* 
+  420  find . -name Dockerfile
+  421  cd test-angular/
+  422  vi Dockerfile
+  423  docker build --rm -t test-angular:latest .
+  424  docker run --rm -d -p 90:80/tcp
+  425  docker run --rm -d -p 90:80/tcp test-angular:latest
+  426  ll
+  427  history
+  428  history > hist
